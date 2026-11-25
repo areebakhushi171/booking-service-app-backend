@@ -1,0 +1,30 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+.env.save
+
+# Dependencies
+node_modules/
+
+# Generated Prisma clients
+generated/
+generated-js/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# IDE and AI assistant local files
+.cursor/
+.claude/
+.devin/
+.agents/
